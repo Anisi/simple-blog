@@ -17,7 +17,7 @@ export default function NavigationButton({
 		<Link href={href} className='p-2' prefetch={false}>
 			<button
 				className={clsx(
-					'rounded border-2 border-white px-4 py-2 transition-all hover:bg-white hover:text-indigo-600',
+					'rounded border-2 border-white px-4 py-1 transition-all hover:bg-white hover:text-indigo-600',
 					className
 				)}
 				{...restProps}
